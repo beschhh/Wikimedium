@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+}
+
+.menubar {
+  height: 48px;
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+
+.menubar a {
+  color: #999;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.logo {
+  font-size: 18px;
+}
+
+.block {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 100px;
+}
+
+.block .text,
+.block .image {
+  width: 50%;
+}
+
+.block .text {
+  padding: 0 80px;
+}
+
+.block h1 {
+  font-size: 34px;
+  line-height: 1.2;
+  margin: 0 0 28px 0;
+  font-weight: normal;
+}
+
+.block p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.block img {
+  width: 100%;
+  display: block;
+}
+
+.block1 {
+  min-height: 750px;
+}
+
+.block2 {
+  min-height: 650px;
+}
+
+.block3 {
+  min-height: 700px;
+  border-bottom: 1px solid #ddd;
+}
+
+.bottom {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.bottom h1 {
+  font-size: 34px;
+  line-height: 1.2;
+  margin: 0 0 24px 0;
+  font-weight: normal;
+}
+
+.bottom p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0 0 50px 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.buttons a {
+  padding: 15px 30px;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  color: #777;
+  border-radius: 3px;
+}
+
+.buttons a:last-child {
+  background: black;
+  color: white;
+  border-color: black;
+}
